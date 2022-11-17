@@ -30,3 +30,4 @@ let requestMarvel = "\(marvelUrl)\(publicKey)&hash=\(md5Hash(md5HachString))"
 let data = "\(marvelUrl)comics?ts=\(mdString)&apikey=\(publicKey)&hash=\(md5Hash(md5HachString)))"
 
 getData(urlRequest: data)
+
